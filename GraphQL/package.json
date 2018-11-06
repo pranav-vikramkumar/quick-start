@@ -1,0 +1,19 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "GraphQL Server using NodeJS and SDL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "pranav.vikramkumar",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cors": "2.8.4",
+    "express": "4.16.4",
+    "express-graphql": "0.7.1",
+    "graphql": "14.0.2",
+    "graphql-tools": "4.0.3"
+  }
+}
